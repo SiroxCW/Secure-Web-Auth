@@ -1,0 +1,21 @@
+{
+  "mysql": {
+    "host": "sql.example.net",
+    "port": 3309,
+    "user": "root",
+    "password": "securepassword"
+  },
+  "auth": {
+    "secret": "abcdefghijklmnopqrstuvwxyz123456",
+    "cloudflare_secret": "0xAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "expires": 604800,
+    "email": {
+      "port": 587,
+      "user": "smtp_user",
+      "password": "smtp_password",
+      "sender_email": "sender@example.net",
+      "token_key": "TOKEN 32 CHARACTER LONG",
+      "token_iv": "INITIALIZATION VECTOR 16 CHARACTER LONG"
+    }
+  }
+}

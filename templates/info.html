@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Information</title>
+</head>
+<body>
+    {% if message %}
+        <p style="color: #ffffff;">{{ message }}</p>
+    {% else %}
+        <p style="color: #ffffff;">A verification email has been sent to your email address. Please click on the link in the email to verify your account and login.</p>
+    {% endif %}
+</body>
+</html>

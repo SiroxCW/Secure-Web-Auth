@@ -1,0 +1,5 @@
+mysql-connector-python
+cryptography
+requests
+pyjwt
+flask
