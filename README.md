@@ -21,8 +21,8 @@ This is a web application built with Flask that provides user registration, logi
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
-   cd yourproject
+   git clone https://github.com/SiroxCW/Secure-Web-Auth.git
+   cd Secure-Web-Auth
    ```
 
 2. Install the required Python packages:
